@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>WordGame </title>
+</head>
+<body style="background-color:#499DD6;">
+<center><br>
+<h1><B><font color ="white" style = "Font-size:70"> WordGame </font></h1><B>
+<br><br>
+
+	<table border="1" align="center">
+	<tr>
+	</tr>
+	<tr>
+	<td><input type = "button" id="A" value="M" onclick="document.Calculator.display.value +='M'"></td>
+	<td><input type = "button" id="B" value="A" onclick="document.Calculator.display.value +='A'"></td>
+	<td><input type = "button" id="C" value="R" onclick="document.Calculator.display.value +='R'"></td>
+	<td><input type = "button" id="D" value="K" onclick="document.Calculator.display.value +='K'"></td>
+	<td><input type = "button" id="E" value="E" onclick="document.Calculator.display.value +='E'"></td>
+	<td><input type = "button" id="F" value="T" onclick="document.Calculator.display.value +='T'"></td>
+	<td><input type = "button" id="G" value="I" onclick="document.Calculator.display.value +='I'"></td>
+	<td><input type = "button" id="H" value="N" onclick="document.Calculator.display.value +='N'"></td>
+	<td><input type = "button" id="I" value="G" onclick="document.Calculator.display.value +='G'"></td>
+	</tr>	
+	</table>
+	<br><br><br>
+	<input type = "button" id="button" value="Form a new word" onclick="display()"></td> <br><br>
+	<form name ="Calculator">
+	<input name ="display" id ="display" placeholder = "0" color ="white"/>
+</body>
+
+<script>
+
+function display(value) {
+document.getElementById("display").value += value;
+}
+
+
+</script>
+
+</html>
